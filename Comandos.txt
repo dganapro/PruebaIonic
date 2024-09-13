@@ -1,0 +1,23 @@
+npm install -g @ionic/cli
+
+cmd
+
+ionic
+
+ionic start MiApp004 blank
+
+Seleccionar: Angular , NgModules
+
+librerías con capacitor
+
+
+ionic serve      -- inicia el proyecto
+
+ionic generate    -- Sirve para crear componentes
+
+ionic generate page nombrePagina
+
+ionic g page nombrePagina
+
+
+
