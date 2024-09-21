@@ -15,6 +15,22 @@ const routes: Routes = [
     path: 'login',
     loadChildren: () => import('./login/login.module').then(m => m.LoginPageModule)
   },
+  {
+    path: 'mis-asignatura',
+    loadChildren: () => import('./mis-asignatura/mis-asignatura.module').then( m => m.MisAsignaturaPageModule)
+  },
+  {
+    path: 'mis-asis',
+    loadChildren: () => import('./mis-asis/mis-asis.module').then( m => m.MisAsisPageModule)
+  },
+  {
+    path: 'reg-asis',
+    loadChildren: () => import('./reg-asis/reg-asis.module').then( m => m.RegAsisPageModule)
+  },
+  {
+    path: 'cambiar-cla',
+    loadChildren: () => import('./cambiar-cla/cambiar-cla.module').then( m => m.CambiarClaPageModule)
+  },
 ];
 
 @NgModule({
