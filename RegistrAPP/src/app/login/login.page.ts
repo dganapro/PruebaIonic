@@ -20,12 +20,8 @@ export class LoginPage implements OnInit {
 
   async login() {
     if (this.user === 'Usuario1' && this.contra === 'MiClav3') {
-      const toast = await this.ToastController.create({
-        message: 'Bienvenido',
-        position: 'middle',
-        duration: 2000
-      });
-      toast.present();
+      // Redirigir a la página de inicio
+      window.location.href = '/home';
     } else {
       const toast = await this.ToastController.create({
         message: 'Usuario o contraseña incorrectos',
